@@ -1,34 +1,26 @@
 module.exports = {
 	'env': {
-		'browser': true,
 		'es2021': true,
 		'node': true,
 	},
 	'extends': [
-		'plugin:react/recommended',
 		'google',
 	],
 	'parser': '@typescript-eslint/parser',
 	'parserOptions': {
-		'ecmaFeatures': {
-			'jsx': true,
-		},
 		'ecmaVersion': 'latest',
 		'sourceType': 'module',
 	},
 	'plugins': [
-		'react',
 		'@typescript-eslint',
 	],
 	'rules': {
 		'require-jsdoc': 'off',
 		'no-tabs': 'off',
-		'max-len': 'off',
-		'indent': [
-			'error',
-			'tab',
-		],
-		'no-unused-vars': 'warn',
+		'max-len': ['error', {'code': 120}],
+		'indent': ['error', 'tab'],
+		'@typescript-eslint/no-unused-vars': ['warn', {'argsIgnorePattern': '^_'}],
+		'no-unused-vars': 'off',
 		'new-cap': [
 			'error',
 			{
