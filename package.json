@@ -14,7 +14,7 @@
 		"lint:fix": "yarn eslint --ext .js,.ts . --fix"
 	},
 	"dependencies": {
-		"@prisma/client": "4.6.0",
+		"@prisma/client": "4.6.1",
 		"autobind-decorator": "2.4.0",
 		"body-parser": "1.20.1",
 		"chalk": "5.1.2",
@@ -24,7 +24,7 @@
 		"dotenv": "16.0.3",
 		"express": "4.18.2",
 		"morgan": "1.10.0",
-		"prisma": "4.6.0",
+		"prisma": "4.6.1",
 		"reflect-metadata": "0.1.13",
 		"routing-controllers": "0.9.0",
 		"serve-favicon": "2.5.0",
@@ -36,8 +36,8 @@
 		"@types/morgan": "1.9.3",
 		"@types/node": "18.11.9",
 		"@types/serve-favicon": "2.5.3",
-		"@typescript-eslint/eslint-plugin": "5.42.1",
-		"@typescript-eslint/parser": "5.42.1",
+		"@typescript-eslint/eslint-plugin": "5.43.0",
+		"@typescript-eslint/parser": "5.43.0",
 		"eslint": "8.27.0",
 		"eslint-config-google": "0.14.0",
 		"eslint-plugin-react": "7.31.10",
